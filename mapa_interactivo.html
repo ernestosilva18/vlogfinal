@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5cb2c039db27976b95a9829df5101b56 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5cb2c039db27976b95a9829df5101b56" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5cb2c039db27976b95a9829df5101b56 = L.map(
+                "map_5cb2c039db27976b95a9829df5101b56",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b81f0795b7c3797b6b791101ef46b8e8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b81f0795b7c3797b6b791101ef46b8e8.addTo(map_5cb2c039db27976b95a9829df5101b56);
+        
+    
+            var marker_619c2948c3bd048779e6b28a45397f2b = L.marker(
+                [33.3006, -84.1481],
+                {
+}
+            ).addTo(map_5cb2c039db27976b95a9829df5101b56);
+        
+    
+        var popup_5b13c406bed55a50d8df25676d133728 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_299524e2149a68af530ee02d19083f6e = $(`<div id="html_299524e2149a68af530ee02d19083f6e" style="width: 100.0%; height: 100.0%;"><b>Stranger Things</b><br>Director: Hermanos Duffer<br>Año: 2016<br>Género: Ciencia ficción, Drama, Terror<br>Ubicación de Grabación: Jackson, Georgia, EE. UU. (representando Hawkins)<br></div>`)[0];
+                popup_5b13c406bed55a50d8df25676d133728.setContent(html_299524e2149a68af530ee02d19083f6e);
+            
+        
+
+        marker_619c2948c3bd048779e6b28a45397f2b.bindPopup(popup_5b13c406bed55a50d8df25676d133728)
+        ;
+
+        
+    
+    
+            marker_619c2948c3bd048779e6b28a45397f2b.bindTooltip(
+                `<div>
+                     Stranger Things
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f8664c903a94ce095e38039952113ec6 = L.marker(
+                [49.2827, -123.1207],
+                {
+}
+            ).addTo(map_5cb2c039db27976b95a9829df5101b56);
+        
+    
+        var popup_ceca4238741e7241d2c5c084270fd59d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df972ee59a3e672c6c5d4b48a71593d5 = $(`<div id="html_df972ee59a3e672c6c5d4b48a71593d5" style="width: 100.0%; height: 100.0%;"><b>Riverdale</b><br>Director: Roberto Aguirre-Sacasa (creador)<br>Año: 2017<br>Género: Misterio, Drama adolescente<br>Ubicación de Grabación: Vancouver, Columbia Británica, Canadá<br></div>`)[0];
+                popup_ceca4238741e7241d2c5c084270fd59d.setContent(html_df972ee59a3e672c6c5d4b48a71593d5);
+            
+        
+
+        marker_f8664c903a94ce095e38039952113ec6.bindPopup(popup_ceca4238741e7241d2c5c084270fd59d)
+        ;
+
+        
+    
+    
+            marker_f8664c903a94ce095e38039952113ec6.bindTooltip(
+                `<div>
+                     Riverdale
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df48934add62a7a8b67401713a440cd8 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_5cb2c039db27976b95a9829df5101b56);
+        
+    
+        var popup_beca4ec611ed16b369563992177237a8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4efe8e7dad6a8c8c78580918177a604c = $(`<div id="html_4efe8e7dad6a8c8c78580918177a604c" style="width: 100.0%; height: 100.0%;"><b>Euphoria</b><br>Director: Sam Levinson (creador)<br>Año: 2019<br>Género: Drama adolescente<br>Ubicación de Grabación: Los Ángeles, California, EE. UU.<br></div>`)[0];
+                popup_beca4ec611ed16b369563992177237a8.setContent(html_4efe8e7dad6a8c8c78580918177a604c);
+            
+        
+
+        marker_df48934add62a7a8b67401713a440cd8.bindPopup(popup_beca4ec611ed16b369563992177237a8)
+        ;
+
+        
+    
+    
+            marker_df48934add62a7a8b67401713a440cd8.bindTooltip(
+                `<div>
+                     Euphoria
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5474e7b559a3cba247dba0417986f427 = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_5cb2c039db27976b95a9829df5101b56);
+        
+    
+        var popup_f96d0b4d27bd0683ca251770f7be15b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_623e5ba0eb43f92aa6b0dd89a8bb2c75 = $(`<div id="html_623e5ba0eb43f92aa6b0dd89a8bb2c75" style="width: 100.0%; height: 100.0%;"><b>Besos Kitty</b><br>Director: Jenny Han (creadora de la franquicia)<br>Año: 2023<br>Género: Comedia romántica, Drama adolescente<br>Ubicación de Grabación: Seúl, Corea del Sur<br></div>`)[0];
+                popup_f96d0b4d27bd0683ca251770f7be15b4.setContent(html_623e5ba0eb43f92aa6b0dd89a8bb2c75);
+            
+        
+
+        marker_5474e7b559a3cba247dba0417986f427.bindPopup(popup_f96d0b4d27bd0683ca251770f7be15b4)
+        ;
+
+        
+    
+    
+            marker_5474e7b559a3cba247dba0417986f427.bindTooltip(
+                `<div>
+                     Besos Kitty
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c9d2ff318f5ffdb88db1bda91958d7d8 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_5cb2c039db27976b95a9829df5101b56);
+        
+    
+        var popup_42e803f9c4bdebfb4186742a956ff593 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f01283d861cb4232acf0785a6350f8b2 = $(`<div id="html_f01283d861cb4232acf0785a6350f8b2" style="width: 100.0%; height: 100.0%;"><b>Spider-Man: No Way Home</b><br>Director: Jon Watts<br>Año: 2021<br>Género: Superhéroes, Acción, Ciencia ficción<br>Ubicación de Grabación: Atlanta, Georgia, EE. UU. y Nueva York, EE. UU.<br></div>`)[0];
+                popup_42e803f9c4bdebfb4186742a956ff593.setContent(html_f01283d861cb4232acf0785a6350f8b2);
+            
+        
+
+        marker_c9d2ff318f5ffdb88db1bda91958d7d8.bindPopup(popup_42e803f9c4bdebfb4186742a956ff593)
+        ;
+
+        
+    
+    
+            marker_c9d2ff318f5ffdb88db1bda91958d7d8.bindTooltip(
+                `<div>
+                     Spider-Man: No Way Home
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_b81f0795b7c3797b6b791101ef46b8e8.addTo(map_5cb2c039db27976b95a9829df5101b56);
+        
+</script>
+</html>
